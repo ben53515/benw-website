@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Work+Sans:300,600');
 
-:root {
-  --background: rgba(0, 214, 170, .85);
-}
-
 *, *::before, *::after {
   box-sizing: border-box;
 }
@@ -17,8 +13,7 @@ body {
 
 .content {
   height: 200vh;
-  background-image: url(//unsplash.it/1000/1000);
-  background-color: #333;
+  background-color: lightgoldenrodyellow;
   background-blend-mode: multiply;
   background-size: cover;
   display: grid;
@@ -28,58 +23,11 @@ body {
 /* navigation styles start here */
 
 header {
-  background: var(--background);
+  background-color: darkgoldenrod;
   text-align: center;
   position: fixed;
   z-index: 999;
   width: 100%;
-}
-
-/* changed this from the tutorial video to
-   allow it to gain focus, making it tabbable */
-.nav-toggle {
-  position: absolute !important;
-  top: -9999px !important;
-  left: -9999px !important;
-}
-
-.nav-toggle:focus ~ .nav-toggle-label {
-  outline: 3px solid rgba(lightblue, .75);
-}
-
-.nav-toggle-label {
-  position: absolute;
-  top: 0;
-  left: 0;
-  margin-left: 1em;
-  height: 100%;
-  display: flex;
-  align-items: center;
-}
-
-.nav-toggle-label span,
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  display: block;
-  background: white;
-  height: 2px;
-  width: 2em;
-  border-radius: 2px;
-  position: relative;
-}
-
-.nav-toggle-label span::before,
-.nav-toggle-label span::after {
-  content: '';
-  position: absolute;
-}
-
-.nav-toggle-label span::before {
-  bottom: 7px;
-}
-
-.nav-toggle-label span::after {
-  top: 7px;
 }
 
 nav {
@@ -87,7 +35,6 @@ nav {
   text-align: left;
   top: 100%;
   left: 0;
-  background: var(--background);
   width: 100%;
   transform: scale(1, 0);
   transform-origin: top;
@@ -106,7 +53,7 @@ nav li {
 }
 
 nav a {
-  color: white;
+  color: whitesmoke;
   text-decoration: none;
   font-size: 1.2rem;
   text-transform: uppercase;
@@ -118,19 +65,8 @@ nav a:hover {
   color: #000;
 }
 
-.nav-toggle:checked ~ nav {
-  transform: scale(1,1);
-}
-
-.nav-toggle:checked ~ nav a {
-  opacity: 1;
-  transition: opacity 250ms ease-in-out 250ms;
-}
-
 @media screen and (min-width: 800px) {
-  .nav-toggle-label {
-    display: none;
-  }
+ 
 
   header {
     display: grid;
@@ -141,9 +77,8 @@ nav a:hover {
     grid-column: 2 / 3;
   }
   
-  nav {
-    
-    /* the following lines are not from my video, but add Edge support */
+  nav {    
+    /*add Edge support*/
     position: relative;
     text-align: left;
     transition: none;
@@ -151,7 +86,7 @@ nav a:hover {
     background: none;
     top: initial;
     left: initial;
-    /* end Edge support stuff */
+    /*end Edge support stuff*/
     
     grid-column: 3 / 4;
     display: flex;
