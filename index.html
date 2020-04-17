@@ -8,14 +8,24 @@
     <body>
         <header>
             <h1 class="name">Ben Winfield</h1>
-            <nav class="navbar">
+           
+            <nav role="navigation">
               <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">My Videos</a></li>
-                <li><a href="#">Resources</a></li>
-                <li><a href="#">About</a></li>
+                <li><a class="navi" href="#">Home</a></li>
+                <li><a class="navi" href="#">Videos</a></li>
+                <li class="dropdown"><button class="dropbtn">Resources</button>
+                    <ul class="dropdown-content">
+                        <li><img class="dropflag" src="img/britain-flag.jpg"><a href="#">English</a></li>
+                        <li><img class="dropflag" src="img/spain-flag.jpg"><a href="#">Spanish</a></li>
+                        <li><img class="dropflag" src="img/france-flag.jpg"><a href="#">French</a></li>
+                        <li><img class="dropflag" src="img/china-flag.jpg"><a href="#">Mandarin</a></li>
+                    </ul>
+                </li>
+                <li><a class="navi" href="#">Tools</a></li>
+                <li><a class="navi" href="#">About</a></li>
               </ul>
             </nav>
+           
           </header>
           
           
