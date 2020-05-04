@@ -15,7 +15,6 @@ html, body {
 .content {
   background-blend-mode: multiply;
   background-size: cover;
-  display: grid;
   padding-top:80px;
   min-height: 100%;
 }
@@ -25,12 +24,20 @@ html, body {
   padding-left:40px;
   font-size: 20px;
   text-decoration: underline;
+  
 }
 
 .maintext{
   margin:0;
   font-size: 18px;
   padding-left:40px;
+}
+
+.paragraphtext {
+  margin:0;
+  padding-left:40px;
+  font-size: 20px;
+  text-decoration: none;
 }
 
 .maintext p{
