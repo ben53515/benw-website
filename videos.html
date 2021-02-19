@@ -8,27 +8,8 @@
     <body>
         <header>
             <h1 class="name">Ben Winfield</h1>
-           
-            <nav role="navigation">
-                <ul>
-                  <li><a class="navi clickable" href="index.html">Home</a></li>
-                  <li><a class="navi clickable" href="videos.html">Videos</a></li>
-                  <li class="dropdown"><a class="navi">Resources</a>
-                      <ul class="dropdown-content">
-                          <li class ="dropdown-inner"><a>Languages</a>
-                            <ul class="dropdown-content-inner">
-                              <!--<li><a href="resources/english.html" class="clickable"><img class="dropflag" src="img/britain-flag.jpg">English</a></li>-->
-                              <li><a href="resources/spanish.html" class="clickable"><img class="dropflag" src="img/spain-flag.jpg">Spanish</a></li>
-                              <li><a href="resources/french.html" class="clickable"><img class="dropflag" src="img/france-flag.jpg">French</a></li>
-                              <li><a href="resources/mandarin.html" class="clickable"><img class="dropflag" src="img/china-flag.jpg">Mandarin</a></li>
-                            </ul>
-                          </li>
-                          <li><a class="clickable" href="tools.html">Tools</a></li>
-                      </ul>
-                  </li>
-                  <li><a class="navi clickable" href="about.html">About</a></li>
-                </ul>
-            </nav>
+            <nav id="nav" role="navigation"></nav>
+            <script src="nav.js"></script>
            
         </header>
           
@@ -36,14 +17,7 @@
             <h2>Video page currently unavailable</h2>
         </div>
 
-        <div class="footer">
-            <table class="footer-content">
-                <tr>
-                  <td class="table-col-1"><a href="index.html">Home</a></td>
-                  <td class="table-col-2">&copy; benwinfield.co.uk | Designed by Ben Winfield</td>
-                  <td class="table-col-3"></td>
-                </tr>
-            </table>
-        </div>
+        <div id="foot"></div>
+        <script src="footer.js"></script>
     </body>
 </html>
