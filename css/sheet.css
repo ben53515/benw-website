@@ -33,17 +33,10 @@ html, body {
   padding-left:40px;
 }
 
-.paragraphtext {
-  margin:0;
-  padding-left:40px;
-  font-size: 20px;
-  text-decoration: none;
-}
-
 .maintext p{
   margin:0;
   
-}
+} 
 
 .maintext td{
   padding-bottom: 20px;
@@ -55,9 +48,6 @@ html, body {
   width:200px;
 }
 
-.block {
-  height: 40px;
-}
 /* navigation bar styles start here */
 
 header {
