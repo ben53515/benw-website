@@ -12,11 +12,15 @@ html, body {
   height: 100%;
 }
 
+.page-wrapper {
+  position: relative;
+  min-height: 100vh;
+}
+
 .content {
   background-blend-mode: multiply;
   background-size: cover;
-  padding-top:80px;
-  min-height: 100%;
+  padding-top: 60px;
 }
 
 .subtitle {
@@ -214,7 +218,9 @@ nav a.navi:hover::before {
 .footer{
   background-color: #303036;
   height: 50px;
-  position: relative;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer .footer-content {
