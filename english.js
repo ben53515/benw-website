@@ -5,7 +5,8 @@ let learningChannels = [
     { name: "Papa Teach Me", url: "https://www.youtube.com/c/papateachme", description: "Focused largely on pronunciation, with some expressions and vocabulary included too"},
     { name: "English with Benjamin", url: "https://www.youtube.com/c/EngvidBenjamin", description: "Covers wide range of topics, largely grammar and vocabulary"},
     { name: "Go Natural English", url: "https://www.youtube.com/c/GoNaturalEnglish", description: "American English, vocabulary and fluency tips"},
-    { name: "ETJ English", url: "https://www.youtube.com/c/ETJEnglish", description: "focused on sounding more natural with pronunciation, intonation and expressions"}
+    { name: "ETJ English", url: "https://www.youtube.com/c/ETJEnglish", description: "focused on sounding more natural with pronunciation, intonation and expressions"},
+    { name: "English for ESL Beginners", url: "https://www.youtube.com/channel/UCSW8FB6e8tUGEaDsoe7SlWw", description: "Great channel with content for beginners, comprehensible input"}
     //{ name: "", url: "", description: ""},
 
   ];
