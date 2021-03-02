@@ -21,6 +21,7 @@ html, body {
   background-blend-mode: multiply;
   background-size: cover;
   padding-top: 60px;
+  padding-bottom: 50px;
 }
 
 .subtitle {
