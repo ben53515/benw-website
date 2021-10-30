@@ -20,8 +20,8 @@ let learningChannels = [
   { name: "Linguriosa", url: "https://www.youtube.com/c/Linguriosa", description: "Fun videos to learn difficult concepts or learn about culture and sometimes etymology etc"},
   { name: "SpanishPodcast.net", url: "https://www.youtube.com/channel/UCpfjMrPcCxl6aP7qIkN8Jpg", description: "Linked to aforementioned website, videos with awesome tips for learning and explanations, recommend for intermediate+"},
   { name: "Why Not Spanish?", url: "https://www.youtube.com/channel/UCIdFcLCIJQ_YMrormG_nU8w", description: "Another different accent here (Colombian), very clear explanations and well formatted videos to help you learn vocab, for all levels, recommend the listening activity videos especially"},
-  { name: "Extra en Español", url: "https://www.youtube.com/watch?v=Dfb9-ZTCA-E&list=PLLVULqsElvki_riI1ld0QhZJx1wom5Ply&index=1", description: "Program Made for students of spanish, so stupid its hilarious but also useful to learn from if you're a beginner"},
-  //{ name: "", url: "", description: ""},
+  { name: "Extra en Español", url: "https://www.youtube.com/watch?v=Dfb9-ZTCA-E&list=PLLVULqsElvki_riI1ld0QhZJx1wom5Ply&index=1", description: "Program Made for students of spanish, so stupid its hilarious but also useful to learn from if you're a beginner"}
+
 ];
 let learningChannelsCode = ``;
 learningChannels.forEach(learningChannel => {
