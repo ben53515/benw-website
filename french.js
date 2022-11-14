@@ -45,7 +45,6 @@ let channels = [
     { name: "Fabien Olicard", url: "https://www.youtube.com/c/FabienOlicard", description: "Mentalism (illusions, brain and mental biases etc)"},
     { name: "Science Etonnante", url: "https://www.youtube.com/c/ScienceEtonnante", description: "Scientific videos, mainly Physics, explained clearly and enjoyably"},
     { name: "Dr Nozman", url: "https://www.youtube.com/c/DrNozman", description: "Science and interesting subjects at an entry level"},
-    { name: "Dirty Biology", url: "https://www.youtube.com/c/dirtybiology", description: "Science videos about biology or other interesting things"},
     { name: "Fouloscopie", url: "https://www.youtube.com/c/Fouloscopie", description: "une foule = a crowd, the science of crowds - very interesting and unique"},
     { name: "M4RCO", url: "https://www.youtube.com/channel/UCmYC3JFfcXEUNUUcJH4ZQRQ", description: "Well made, informative videos about Astronomy, Aerospace and Space"},
     { name: "Cyprien", url: "https://www.youtube.com/c/cyprien", description: "Short comedic videos and sketches about various topics"},

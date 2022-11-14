@@ -46,7 +46,7 @@ let channels = [
   { name: "Hora del coto", url: "https://www.youtube.com/c/HoraDelcoto", description: "Mexican spanish, reactions to spanish comedians and more"},
   { name: "La Resistencia", url: "https://www.youtube.com/channel/UCvosUrZ7hXpzAyobhfztg4w", description: "Clips from a Spanish Talk show/Podcast-style videos where many celebrities are interviewed, very natural conversational spanish"},
   { name: "The Wild Project", url: "https://www.youtube.com/channel/UCBYyJBCtCvgqA4NwtoPMwpQ", description: "Spanish Podcast with informative videos about a range of topics whilst interviewing experts in different fields"},
-  { name: "Fortfast WTF", url: "https://www.youtube.com/channel/UChN3MPAc_4Qa-xkM0ZQiVbg", description: "Natural Spanish with a variety of accents talking about relevant topics and sharing interesting information"},
+  { name: "Fortfast WTF", url: "https://www.youtube.com/channel/UChN3MPAc_4Qa-xkM0ZQiVbg", description: "Natural Spanish with a variety of accents talking about relevant topics and sharing interesting information"}
   
 ];
 let channelsCode = ``;
