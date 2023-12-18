@@ -1,4 +1,41 @@
-let websites = [
+let frenchResources = [
+  { name: "French Kwiziq", type: "Website", level: "A1-B2", url: "https://french.kwiziq.com/learn/reading", description: "French reading practice, various levels, includes audio"},
+  { name: "Lawless French", type: "Website", level: "A1-B2", url: "https://www.lawlessfrench.com/faq/lessons-by-level/", description: "Also reading practice, any level, including videos/audios and also grammar tips/lessons"},
+
+  { name: "Alice Ayel", type: "YouTube", level: "A1/A2", url: "https://www.youtube.com/channel/UCbC9Utt1c6UXRqWw2lOTCBg", description: "Amazing stories and comprehensible input for complete beginners and up, very useful"},
+  { name: "French with Tony", type: "YouTube", level: "A2/B1", url: "https://www.youtube.com/channel/UC-8POjZ30a3YD63Gys0wWNA", description: "Great channel with content for beginners and intermediate with stories and also authentic conversations"},
+  { name: "Julie Alors", type: "YouTube", level: "A1-B2", url: "https://www.youtube.com/channel/UCVJJy6MLOtSJQebC86L7SDw", description: "Great channel with videos for all levels of comprehensible input"},
+  { name: "French Comprehensible Input", type: "YouTube", level: "A1-B2", url: "https://www.youtube.com/channel/UC-XUpEBvcQcRqMdtLhoXmOA", description: "interesting and engaging videos for all levels, comprehensible input"},
+  { name: "Français avec Pierre", type: "YouTube", level: "B1", url: "https://www.youtube.com/channel/UCVgW9ZQaGBk6fsiPgE2mYDg", description: "Great channel for grammar explanations in slow, clear french"},
+  { name: "Inner French", type: "YouTube", level: "B1/B2", url: "https://www.youtube.com/channel/UCI4xp8qHD1MDErkqxb1dPbA", description: "Slow, clear french with a variety of topics for intermediate students"},
+  { name: "Français Authentique", type: "YouTube", level: "B1/B2", url: "https://www.youtube.com/channel/UCQpM25U6iqaRSO-SZxd5oDw", description: "Great channel for intermediate levels and above with discussions about a variety of topics"},
+  { name: "Guide to French Pronunciation", type: "YouTube", level: "any", url: "https://www.youtube.com/channel/UCZ0FVpygzWPgtpWS_-ENTsg", description: "Explanations of how to pronounce french sounds with mouth positions etc - very useful! (videos in english)"},
+  { name: "Elma dit", type: "YouTube", level: "A2+", url: "https://www.youtube.com/c/Elmadit", description: "Explanations of pronunciation and some other topics, videos in french or portuguese"},
+  { name: "Piece of French", type: "YouTube", level: "B1", url: "https://www.youtube.com/c/PieceofFrench", description: "Slow, clear french with subtitles, everyday topics"},
+  { name: "François le français", type: "YouTube", level: "B1/B2", url: "https://www.youtube.com/channel/UCvnjBpG2GikgvHB7qrRG5Yw", description: "Explanations of songs/videos, learn slang"},
+  { name: "Extra en Français", type: "YouTube", level: "A2", url: "https://www.youtube.com/playlist?list=PLhAxKCm7GPvi1fmbLUbhYhQcLGTZ2Fqwq", description: "Program Made for students of French, so stupid its hilarious but also useful to learn from if you're a beginner"},
+
+  { name: "Le Monde des Langues", type: "YouTube", level: "N/A", url: "https://www.youtube.com/channel/UC1ipKNAWcHhmcqKUEGg1RMg", description: "Content aimed at french speakers, discussing languages and other interesting topics"},
+  { name: "Lauriane- Marathon des Langues", type: "YouTube", level: "N/A", url: "https://www.youtube.com/channel/UCF6Z8cpFJke-s9mqsGkDK8Q", description: "Content aimed at french speakers, discussing languages and other interesting topics"},
+  { name: "Linguisticae", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/Linguisticae", description: "Very fun, speaks about linguistics, speaks fast"},
+  { name: "Les langues de Cha", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/LesLanguesdeCha", description: "Linguistics, informative and useful"},
+  { name: "Apprendre une langue", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/apprendreunelangue", description: "Speaks about language learning, particularly how to start quickly. Comprehensible videos"},
+  { name: "Claire et Arthur Les droners", type: "YouTube", level: "N/A", url: "https://www.youtube.com/channel/UCSmifVtM_TtxUCRrPQ_yqKw", description: "Discusses travel, photography and the environment"},
+  { name: "Hugo Décrypte", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/HugoD%C3%A9crypte", description: "Weekday short videos with news about France or international subjects"},
+  { name: "France Culture", type: "YouTube", level: "N/A", url: "https://www.youtube.com/user/FranceCulture", description: "Videos about various subjects related to France and the french language"},
+  { name: "Kaizen Lane", type: "YouTube", level: "N/A", url: "https://www.youtube.com/channel/UCCVy4FTw__pk6bvZsPyTSLg", description: "Personal development, study tips, productivity"},
+  { name: "Mathias", type: "YouTube", level: "N/A", url: "https://www.youtube.com/channel/UCOLk9tXeX8QI66ZYeW_vO-g", description: "Personal development, sport, willpower, challenges"},
+  { name: "Cyrus North", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/CyrusNorth", description: "Psychology, thoughts about tough topics"},
+  { name: "Fabien Olicard", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/FabienOlicard", description: "Mentalism (illusions, brain and mental biases etc)"},
+  { name: "Science Etonnante", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/ScienceEtonnante", description: "Scientific videos, mainly Physics, explained clearly and enjoyably"},
+  { name: "Dr Nozman", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/DrNozman", description: "Science and interesting subjects at an entry level"},
+  { name: "Fouloscopie", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/Fouloscopie", description: "une foule = a crowd, the science of crowds - very interesting and unique"},
+  { name: "M4RCO", type: "YouTube", level: "N/A", url: "https://www.youtube.com/channel/UCmYC3JFfcXEUNUUcJH4ZQRQ", description: "Well made, informative videos about Astronomy, Aerospace and Space"},
+  { name: "Cyprien", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/cyprien", description: "Short comedic videos and sketches about various topics"},
+  { name: "Paul Taylor's Happy Hour", type: "YouTube", level: "N/A", url: "https://www.youtube.com/c/PaulTaylorsHappyHourLive", description: "English comedian who speaks very good french talks to invitees casually and comically (in english and french)"}
+];
+
+/* let websites = [
     { name: "French Kwiziq", url: "https://french.kwiziq.com/learn/reading", description: "French reading practice, various levels, includes audio"},
     { name: "Lawless French", url: "https://www.lawlessfrench.com/faq/lessons-by-level/", description: "Also reading practice, any level, including videos/audios and also grammar tips/lessons"}
     
@@ -57,15 +94,17 @@ let channels = [
   channels.forEach(channel => {
     channelsCode += `<tr><td class="table-link"><a href="${channel.url}" target="_blank">${channel.name}</a></td>
     <td><p>${channel.description}</p></td></tr>`;
+  }); */
+
+  let resourcesCode = `<tr><td class="table-link"><a>Name</a></td><td><a>Type</a></td><td><a>Level</a></td><td><a>Description</a></td></tr>`;
+  frenchResources.forEach(resource => {
+    resourcesCode += `<tr><td class="table-link"><a href="${resource.url}" target="_blank">${resource.name}</a></td>
+    <td class="table-type"><a>${resource.type}</a></td>
+    <td class="table-level"><a>${resource.level}</a></td>
+    <td><p>${resource.description}</p></td></tr>`;
   });
   
-  let frenchCode = `<div class="content">
-  <h2 class="subtitle">Websites</h2>
-  <table class="maintext">${websitesCode}</table>
-  <h2 class="subtitle">Youtube</h2>
-  <p class="subtitle">Channels for Learning French</p>
-  <table class="maintext">${learningChannelsCode}</table>
-  <p class="subtitle">Interesting French Channels (Recommend for Upper intermediate+, or lower levels who prefer listening to content made for natives)</p>
-  <table class="maintext">${channelsCode}</table>`;
+  let frenchCode = `<h2 class="subtitle">Resources</h2>
+  <table class="maintext">${resourcesCode}</table>`;
   
   document.getElementById("innerBody").innerHTML = frenchCode;

@@ -26,7 +26,9 @@ html, body {
 
 .subtitle {
   margin:0;
+  padding-top: 20px;
   padding-left:40px;
+  padding-bottom: 10px;
   font-size: 20px;
   text-decoration: underline;
   
@@ -38,6 +40,16 @@ html, body {
   padding-left:40px;
 }
 
+a {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
+p {
+  padding-left: 5px;
+  padding-top: 5px;
+}
+
 .maintext p{
   margin:0;
   
@@ -47,10 +59,30 @@ html, body {
   padding-bottom: 20px;
   
 }
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  border: 1px solid;
+}
 
 .table-link {
-  vertical-align: top;
+  /*vertical-align: top;*/
   width:200px;
+  /*border: 1px solid;*/
+}
+
+.table-level {
+  /*vertical-align: top;*/
+  width:60px;
+  /*border: 1px solid;*/
+}
+
+.table-type {
+  /*vertical-align: top;*/
+  width:100px;
 }
 
 /* navigation bar styles start here */

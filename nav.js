@@ -14,7 +14,6 @@ let navCode = `
 <nav role=navigation>
 <ul>
 <li><a class="navi clickable" href="index.html">Home</a></li>
-<li><a class="navi clickable" href="videos.html">Videos</a></li>
 <li class="dropdown">
     <a class="navi">Resources</a>
     <ul class="dropdown-content">
